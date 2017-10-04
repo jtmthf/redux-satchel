@@ -1,0 +1,11 @@
+{
+  "name": "redux-satchel",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/jtmthf/redux-satchel.git",
+  "author": "Jack Moore <jtmthf@mst.edu>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  }
+}
