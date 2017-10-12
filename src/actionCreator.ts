@@ -1,7 +1,7 @@
 import ActionMessage from './interfaces/ActionMessage';
 import ActionCreator from './interfaces/ActionCreator';
 
-export function actionCreator<
+export default function actionCreator<
   T extends ActionMessage = {},
   TActionCreator extends ActionCreator<T> = () => T
 >(actionType: string, target?: TActionCreator): TActionCreator {
